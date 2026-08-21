@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiphyFetcher.Domain", "GiphyFetcher.Domain\GiphyFetcher.Domain.csproj", "{2E89A2A1-549F-44E7-A698-5DCF8A1203F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiphyFetcher.Infrastructure", "GiphyFetcher.Infrastructure\GiphyFetcher.Infrastructure.csproj", "{4436A5FB-2D75-40E9-9A88-50CE13003158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiphyFetcher.Api", "GiphyFetcher.Api\GiphyFetcher.Api.csproj", "{23E3CB36-4E3A-4521-BA13-E1159F039622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E89A2A1-549F-44E7-A698-5DCF8A1203F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E89A2A1-549F-44E7-A698-5DCF8A1203F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E89A2A1-549F-44E7-A698-5DCF8A1203F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E89A2A1-549F-44E7-A698-5DCF8A1203F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4436A5FB-2D75-40E9-9A88-50CE13003158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4436A5FB-2D75-40E9-9A88-50CE13003158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4436A5FB-2D75-40E9-9A88-50CE13003158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4436A5FB-2D75-40E9-9A88-50CE13003158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E3CB36-4E3A-4521-BA13-E1159F039622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E3CB36-4E3A-4521-BA13-E1159F039622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E3CB36-4E3A-4521-BA13-E1159F039622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E3CB36-4E3A-4521-BA13-E1159F039622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
