@@ -5,6 +5,9 @@ namespace GiphyFetcher.Infrastructure.Caching;
 
 public class MemoryCacheService : ICacheService
 {
+    // TODO: MemoryCache is instance-based. For production/distributed deployments,
+    // consider using Redis as a shared cache with Polly for failure retries.
+    
     private readonly IMemoryCache _cache;
 
     public MemoryCacheService(IMemoryCache cache)
