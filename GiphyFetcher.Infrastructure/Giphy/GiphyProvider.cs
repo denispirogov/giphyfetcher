@@ -52,8 +52,6 @@ public class GiphyProvider : IGifProvider
             .GetFromJsonAsync<GiphyResponse>(
                 url,
                 cancellationToken);
-
-        var resp = await _httpClient.GetStringAsync(url, cancellationToken);
         
         return response?.Data
                    .Select(x => new GifResult(
