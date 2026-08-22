@@ -26,6 +26,9 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
+// TODO: Simple UI implemented.
+// Consider creating a separate UI project that communicates with the API,
+// allowing independent deployment and better scalability in production.
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
