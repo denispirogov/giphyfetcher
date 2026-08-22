@@ -8,13 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
-    </ItemGroup>
-
-    <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GiphyFetcher.Domain\GiphyFetcher.Domain.csproj" />
+      <ProjectReference Include="..\GiphyFetcher.Infrastructure\GiphyFetcher.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
