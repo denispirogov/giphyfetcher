@@ -18,9 +18,12 @@ Controller
     ↓
 GifService
     ├── ICacheService
+    |       ↓
+    |   MemoryCacheService
+    |
     └── IGifProvider
             ↓
-      GiphyProvider
+        GiphyProvider
             ↓
         Giphy API
 ```
